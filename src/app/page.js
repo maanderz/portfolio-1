@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import localFont from 'next/font/local'
 import clsx from 'clsx';
+import Link from 'next/link'
 
 const myFont = localFont({ src: './Instrument_Serif/InstrumentSerif-Regular.ttf' })
  
@@ -19,9 +20,9 @@ export default function Home() {
           </div>
         </section>
         <section className={styles.intro_links}>
-          <div className={styles.intro_links_children}>Terms</div>
-          <div className={styles.intro_links_children}>Concepts</div>
-          <div className={styles.intro_links_children}>Trends</div>
+          <Link className={styles.intro_links_children} href="/terms">Terms</Link>
+          <Link className={styles.intro_links_children} href="/concepts">Concepts</Link>
+          <Link className={styles.intro_links_children} href="/trends">Trends</Link>
         </section>
       </main>
     </main>
