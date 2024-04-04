@@ -12,7 +12,15 @@
 }
 
 .main_container_start {
-  justify-content: start;
+  justify-content: unset;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 5rem;
+  border-bottom: 1px solid black;
 }
 
 .introduction {
@@ -20,6 +28,7 @@
   flex-direction: row;
   width: 100%;
   font-size: 2rem;
+  flex-wrap: wrap;
 }
 
 .introduction_1 {
@@ -48,7 +57,7 @@
 }
 
 .terms_container {
-  font-size: 1rem;
+  font-size: 1.25rem;
   padding-left: 0;
   border-left: none;
   margin-bottom: 1rem;
@@ -58,6 +67,7 @@
 .terms_outer_container {
   padding: 0;
   margin: 3rem 0;
+  width: 50%;
 }
 
 .terms_left {

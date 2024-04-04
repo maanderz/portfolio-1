@@ -22,6 +22,7 @@ export default function Terms() {
  
   return (
     <main className={clsx(myFont.className, styles.introduction)}>
+      <section className={styles.title}>Terms</section>
       <section className={clsx(styles.main, styles.main_container_start, styles.terms_outer_container, styles.terms_left)}>
         <ol className={clsx(styles.introduction_1, styles.terms_container)}>
             <li className={styles.terms_container}>
