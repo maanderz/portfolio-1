@@ -43,6 +43,23 @@
   font-size: 1.25rem;
 }
 
+.terms_container {
+  font-size: 1rem;
+  padding-left: 0;
+  border-left: none;
+}
+
+.terms {
+  margin-right: 1rem;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.terms_emphasized {
+  background-color: yellow;
+  font-size: 1.5rem;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
