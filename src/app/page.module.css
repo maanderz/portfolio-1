@@ -11,6 +11,10 @@
   justify-content: center;
 }
 
+.main_container_start {
+  justify-content: start;
+}
+
 .introduction {
   display: flex; 
   flex-direction: row;
@@ -48,6 +52,16 @@
   padding-left: 0;
   border-left: none;
   margin-bottom: 1rem;
+  width: 80%;
+}
+
+.terms_outer_container {
+  padding: 0;
+  margin: 3rem 0;
+}
+
+.terms_left {
+  border-right: 1px solid black;
 }
 
 .terms {
