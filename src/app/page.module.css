@@ -85,6 +85,24 @@
   font-size: 1.5rem;
 }
 
+.concepts_main_container {
+  margin: 2rem;
+}
+
+.concept_container {
+  font-size: 1.25rem;
+  width: 75%;
+  padding: 1rem 2rem 1rem 0;
+}
+
+.images_container {
+  width: 25%;
+}
+
+.concept_description_left {
+  padding: 1rem 1rem 1rem 0;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
