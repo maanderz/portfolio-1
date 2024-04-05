@@ -14,7 +14,7 @@ export default function Trends() {
         <Link className={styles.intro_links_children} href="/terms">Terms</Link>
         <Link className={styles.intro_links_children} href="/concepts">Concepts</Link>
       </section>
-      <div style={{ fontSize: '1.25rem', padding: '1rem', borderBottom: '1px solid black'}}>
+      <div style={{ fontSize: '1.25rem', padding: '1rem', marginLeft: '1rem', borderBottom: '1px solid black'}}>
         <div style={{ fontSize: '2rem', paddingBottom: '1rem' }}>Tiny Computers</div>
         <div>
           Tiny PCs are personal computers that are connected to a display with an optional input device. 
