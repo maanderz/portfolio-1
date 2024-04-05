@@ -4,6 +4,7 @@ import clsx from 'clsx';
 import Image from 'next/image'
 import chatMessage from '../../../public/chat-message.png'
 import chatResponse from '../../../public/chat-response.png'
+import Network from "./section-1";
 
 const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf' })
  
@@ -39,6 +40,7 @@ export default function Concepts() {
           </div>
         </div>
       </div>
+      <Network />
     </main>
   );
 }
