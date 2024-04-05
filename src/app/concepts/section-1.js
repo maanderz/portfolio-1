@@ -1,6 +1,5 @@
 import styles from "../page.module.css";
 import localFont from 'next/font/local'
-import clsx from 'clsx';
 
 const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf' })
  
