@@ -91,12 +91,8 @@
 
 .concept_container {
   font-size: 1.25rem;
-  width: 75%;
+  width: 50%;
   padding: 1rem 2rem 1rem 0;
-}
-
-.images_container {
-  width: 25%;
 }
 
 .concept_description_left {

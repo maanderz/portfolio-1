@@ -12,10 +12,10 @@ export default function Concepts() {
     <main className={clsx(myFont.className, styles.introduction)}>
       <section className={styles.title}>Concepts</section>
       <div className={styles.concepts_main_container}>
-        <div>Information Processing Cycle</div>
+        <div>What is a computer?</div>
         <div className={styles.intro_links}>
           <div className={styles.concept_container}>
-            <div className={styles.concept_description_left}>The four operations of a computer which are input, processing, output and storage are known as the information processing cycle or IPOS cycle. There is now fifth operation that is considered to be within the cycle which is communication. Communications deals with sending or retrieving data.</div>
+            <div className={styles.concept_description_left}>A computer is an electronic device that can perform the information processing cycle. The information processing cycle or IPOS cycle includes four operations and they are input, processing, output and storage. There is now fifth operation that is considered to be within the cycle which is communication. Communications deals with sending or retrieving data.</div>
             <div className={styles.concept_description_left}>Example of an information processing cycle by a user messaging a chatbot:</div>
             <div className={styles.concept_description_left} style={{ paddingLeft: "1rem" }}>Input: A user typing a message in a messenger window.</div>
             <div className={styles.concept_description_left} style={{ paddingLeft: "1rem" }}>Processing: The computer formatting and interpreting the keyboard strokes into letters.</div>

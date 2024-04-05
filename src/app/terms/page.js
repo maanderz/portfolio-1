@@ -58,24 +58,24 @@ export default function Terms() {
                 <span id={8} className={display === 8 ? styles.terms_emphasized : '' }>Physical components that are used for inputing, processing, outputting and communication of data such as mouse, printer, and monitor.</span>  
             </li>
             <li className={styles.terms_container}>
-                <span id={9} className={styles.terms} onClick={() => emphasize(9)}>Software:</span>
-                <span id={9} className={display === 9 ? styles.terms_emphasized : '' }>Set of instructions for computer's hardware.</span>  
+                <span id={9} className={styles.terms} onClick={() => emphasize(9)}>Internet service provider:</span>
+                <span id={9} className={display === 9 ? styles.terms_emphasized : '' }>A business that provides Internet access to the public for a fee.</span>  
             </li>
             <li className={styles.terms_container}>
-                <span id={10} className={styles.terms} onClick={() => emphasize(10)}>System software:</span>
-                <span id={10} className={display === 10 ? styles.terms_emphasized : '' }>Instructions for a computer to run which includes the operating system.</span>  
+                <span id={10} className={styles.terms} onClick={() => emphasize(10)}>Internet:</span>
+                <span id={10} className={display === 10 ? styles.terms_emphasized : '' }>The largest computer network that connects all the computers in the world.</span>  
             </li>
         </ol>
       </section>
       <section className={clsx(styles.main, styles.main_container_start, styles.terms_outer_container)}>
         <ol start="11" className={clsx(styles.introduction_1, styles.terms_container)}>
           <li className={styles.terms_container}>
-              <span id={11} className={styles.terms} onClick={() => emphasize(11)}>Operating system:</span>
-              <span id={11} className={display === 11 ? styles.terms_emphasized : '' }>A system software that allows the user to operate, manage, and run applications on a computer with its interface. A few operating systems are iOS, Windows and Linux.</span>  
+              <span id={11} className={styles.terms} onClick={() => emphasize(11)}>Web browser:</span>
+              <span id={11} className={display === 11 ? styles.terms_emphasized : '' }>An application that is used to view Web pages. Internet explorer, Chrome, and Firefox are examples of web browsers.</span>  
           </li>
           <li className={styles.terms_container}>
-              <span id={12} className={styles.terms} onClick={() => emphasize(12)}>Application software:</span>
-              <span id={12} className={display === 12 ? styles.terms_emphasized : '' }>Programs that allows users to perform specific tasks such as Excel for spreadsheet functions, Powerpoint for presentations, Photoshop for editing images. Application software is also known as apps.</span>  
+              <span id={12} className={styles.terms} onClick={() => emphasize(12)}>Domain name:</span>
+              <span id={12} className={display === 12 ? styles.terms_emphasized : '' }>A string of unique text that identifies a computer on the internet. The domain name represents an IP address which gets fetched when a user types the domain name in the browser.</span>  
           </li>
           <li className={styles.terms_container}>
               <span id={13} className={styles.terms} onClick={() => emphasize(13)}>Embedded computers:</span>
