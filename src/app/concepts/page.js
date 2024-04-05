@@ -8,6 +8,7 @@ import Network from "./section-1";
 import Computers from "./section-2";
 import Software from './section-3';
 import Impact from "./section-4";
+import Link from "next/link";
 
 const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf' })
  
@@ -15,6 +16,11 @@ export default function Concepts() {
   return (
     <main className={clsx(myFont.className, styles.introduction)}>
       <section className={styles.title}>Concepts</section>
+      <section className={styles.intro_links}>
+        <Link className={styles.intro_links_children} href="/">Home</Link>
+        <Link className={styles.intro_links_children} href="/terms">Terms</Link>
+        <Link className={styles.intro_links_children} href="/trends">Trends</Link>
+      </section>
       <div className={styles.concepts_main_container}>
         <div>What is a computer?</div>
         <div className={styles.intro_links}>

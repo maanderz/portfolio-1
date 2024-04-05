@@ -4,6 +4,7 @@ import styles from "../page.module.css";
 import localFont from 'next/font/local'
 import clsx from 'clsx';
 import { useState } from 'react';
+import Link from "next/link";
 
 const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf' })
  
@@ -23,6 +24,11 @@ export default function Terms() {
   return (
     <main className={clsx(myFont.className, styles.introduction)}>
       <section className={styles.title}>Terms</section>
+      <section className={styles.intro_links}>
+        <Link className={styles.intro_links_children} href="/">Home</Link>
+        <Link className={styles.intro_links_children} href="/concepts">Concepts</Link>
+        <Link className={styles.intro_links_children} href="/trends">Trends</Link>
+      </section>
       <section className={clsx(styles.main, styles.main_container_start, styles.terms_outer_container, styles.terms_left)}>
         <ol className={clsx(styles.introduction_1, styles.terms_container)}>
             <li className={styles.terms_container}>

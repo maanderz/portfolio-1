@@ -48,6 +48,8 @@
 
 .intro_links {
   display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
 .intro_links_children {
@@ -66,7 +68,7 @@
 
 .terms_outer_container {
   padding: 0;
-  margin: 3rem 0;
+  margin: 2rem 0;
   width: 50%;
 }
 
