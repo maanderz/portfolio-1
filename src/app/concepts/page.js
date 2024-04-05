@@ -7,6 +7,7 @@ import chatResponse from '../../../public/chat-response.png'
 import Network from "./section-1";
 import Computers from "./section-2";
 import Software from './section-3';
+import Impact from "./section-4";
 
 const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf' })
  
@@ -48,6 +49,7 @@ export default function Concepts() {
       </div>
       <div style={{ display: 'flex', borderTop: '1px solid black' }}>
         <Software />
+        <Impact />
       </div>
     </main>
   );
