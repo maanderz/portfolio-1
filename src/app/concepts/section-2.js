@@ -8,7 +8,7 @@ const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf
 export default function Computers() {
   return (
     <div className={styles.concepts_main_container} style={{ marginRight: '0', width: '50%' }}>
-      <div>Importance of the knowledge of computers</div>
+      <div>Importance of the Knowledge of Computers</div>
       <div className={styles.intro_links}>
         <div style={{ fontSize: '1.25rem' }}>
           <div className={styles.concept_description_left}>It is essential to learn about computers today because technology plays a huge role in our daily lives. Paying bills, registering for classes, and chatting with friends can all be done on our mobile devices through apps.</div>

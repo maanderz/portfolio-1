@@ -41,7 +41,7 @@ export default function Terms() {
             </li>
             <li className={styles.terms_container}>
                 <span id={3} className={styles.terms} onClick={() => emphasize(3)}>Processing:</span>
-                <span id={3} className={display === 3 ? styles.terms_emphasized : '' }>Operations being done on data for interpreting and conversing to output.</span>  
+                <span id={3} className={display === 3 ? styles.terms_emphasized : '' }>Operations being done on data for interpreting and converting to output.</span>  
             </li>
             <li className={styles.terms_container}>
                 <span id={4} className={styles.terms} onClick={() => emphasize(4)}>Output:</span>
@@ -53,7 +53,7 @@ export default function Terms() {
             </li>
             <li className={styles.terms_container}>
                 <span id={6} className={styles.terms} onClick={() => emphasize(6)}>Data:</span>
-                <span id={6} className={display === 6 ? styles.terms_emphasized : '' }>Any fact or set of facts that are unorganized (ie. Images, numbers, letters).</span>  
+                <span id={6} className={display === 6 ? styles.terms_emphasized : '' }>Any fact or set of facts that are unorganized (ie. images, numbers, letters).</span>  
             </li>
             <li className={styles.terms_container}>
                 <span id={7} className={styles.terms} onClick={() => emphasize(7)}>Information:</span>
@@ -85,7 +85,7 @@ export default function Terms() {
           </li>
           <li className={styles.terms_container}>
               <span id={13} className={styles.terms} onClick={() => emphasize(13)}>Embedded computers:</span>
-              <span id={13} className={display === 13 ? styles.terms_emphasized : '' }>Tiny computer integrated into a product so the product can perform specific tasks but these embedded computers cannot be used as general purpose computers because they have specific tasks assigned to them.</span>  
+              <span id={13} className={display === 13 ? styles.terms_emphasized : '' }>Tiny computer integrated into a product so the product can perform specific tasks but these embedded computers cannot be used as general purpose computers.</span>  
           </li>
           <li className={styles.terms_container}>
               <span id={14} className={styles.terms} onClick={() => emphasize(14)}>Mobile device:</span>

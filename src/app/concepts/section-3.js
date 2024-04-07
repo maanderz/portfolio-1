@@ -6,7 +6,7 @@ const myFont = localFont({ src: '../Instrument_Serif/InstrumentSerif-Regular.ttf
 export default function Network() {
   return (
     <div className={styles.concepts_main_container} style={{ marginRight: '0', borderRight: '1px solid black', width: '50%' }}>
-      <div>Network, Internet and the World Wide Web</div>
+      <div>Software</div>
         <div className={styles.intro_links}>
           <div style={{ fontSize: '1.25rem' }}>
           <div style={{ fontSize: '1.25rem' }}>
